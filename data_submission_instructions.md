@@ -1,7 +1,16 @@
-# Data Submission Instructions
-## For LTER researchers
-### An T. Nguyen and Tim Whiteaker -- BLE-LTER Information Managers
-2019-11-18
+---
+title: Data Submission Instructions
+subtitle: For LTER researchers
+author: An T. Nguyen and Tim Whiteaker -- BLE-LTER Information Managers
+date: 2019-11-18
+fontsize: 10pt
+header-includes:
+- \usepackage{booktabs}
+- \usepackage{tabu}
+- \usepackage{float}
+urlcolor: blue
+geometry: margin= 1in
+---
 
 # Orientation
 
@@ -38,7 +47,7 @@ You may find the attached example submission package useful as you prepare your 
 
 # Metadata Template Instructions
 
-The accompanying metadata template is an Excel workbook, oriented toward the [Ecological Metadata Language](https://knb.ecoinformatics.org/external//emlparser/docs/index.html), the metadata standard for the LTER network and widely used in the earth and environmental sciences. Refer to these instructions, which will walk you through completing each sheet in the template workbook, and the example submission package as you gather metadata.
+The accompanying metadata template is an Excel workbook, oriented toward the [Ecological Metadata Language](https://knb.ecoinformatics.org/external//emlparser/docs/index.html), the metadata standard for the LTER network and widely used in the earth and environmental sciences. Refer to these instructions as well as the sample submission package from Vanessa, which will walk you through completing each sheet in the template workbook. 
 
 About the template workbook: 
 
@@ -69,8 +78,8 @@ Do _not_ use superscripts or subscripts anywhere. Use ASCII characters -- number
 - Lat/Lon Datum: we will assume this applies to all coordinates in the dataset.
 - Taxonomic Authority: specify if applicable to dataset.
 - License: CC0 by default. Find out more at [Creative Commons](https://creativecommons.org/share-your-work/public-domain/cc0/). While this license effectively places the data package in the public domain, no rights reserved, we will remind data users that it is both ethical and professional etiquette to give proper credit when using this dataset.
-- Time Zone: time zone of date time values appearing in the dataset. Defaults to AKDT. Note that we've found some BLE sensors actually record in Alaskan standard time, which does not adjust for Daylight Savings Time and is equal to UTC/GMT -08. If your data follows DST, then it won't have a record within 2019-03-10 02:00:00 to 2019-03-10 03:00:00, since DST skips ahead then.
-- Update Frequency:
+- Time Zone: time zone of date time values appearing in the dataset. Defaults to AKDT. Note that we've found some BLE sensors actually record in Alaskan standard time, which does not adjust for Daylight Savings Time and is equal to UTC/GMT -08. If your data follows DST, then there might not be a record within 2019-03-10 02:00:00 to 2019-03-10 03:00:00, since DST skips ahead then.
+- Update Frequency: is this a one-off dataset, or do you expect to add more data at intervals?
 
 ## Personnel
 
@@ -78,10 +87,10 @@ List all personnel that should be given credit on the collection, curation, and 
 
 #### Role
 
-- The only required role is "creator," or people who have intellectually contributed to the dataset. Those listed as creators will appear as "authors" of the dataset and in auto-generated citations in most metadata display systems. Note that LTER best practices recommend listing the LTER site as first creator of the dataset. There is no LTER controlled vocabulary for other roles. We recommend giving fair credit, and suggest possible roles below; you are welcome to enter other roles as you see fit.
+- The only required role is "creator," or people who have intellectually contributed to the dataset. Those listed as creators will appear as "authors" of the dataset and in auto-generated citations in most metadata display systems. Note that LTER best practices recommend listing the LTER site as first creator of the dataset. There is no LTER controlled vocabulary for other roles. We recommend giving fair credit, and suggest possible roles below; you arse welcome to enter other roles as you see fit.
 
 |Role|Who fits this role|
-|--- |--- |
+|--- |------- |
 |creator|Intellectual contributors to the creation and/or continuation of dataset.|
 |field technician||
 |field assistant||
@@ -97,7 +106,7 @@ List all personnel that should be given credit on the collection, curation, and 
 #### Other columns
 - Creator order: Per LTER best practices, the LTER site will be listed as first creator of the dataset. For each creator, list the preferred authorship order, starting with 2. For other personnel, leave blank.
 - Fill in your organization, address, contact info, etc. _only_ if this is your first time submitting _or_ if there has been a change. Otherwise, we most likely have your information already. Do list this information for other personnel as we might not have it.
-- Include [ORCIDs](https://orcid.org/) as much as possible, which is a persistent identifier system for researchers. You might want to encourage your team members to get one and fill out a profile. Merely having an ORCID is no good without a profile.
+- Include [ORCIDs](https://orcid.org/) as much as possible. ORCID is a persistent identifier system for researchers. You might want to encourage your team members to get one and fill out a profile. Merely having an ORCID is no good without a profile.
 
 ## Keywords
 
@@ -125,7 +134,7 @@ Codes apply to categorical variables, or attributes that allow a specific set of
 
 > _**Leave No Cells Behind:** Never, ever, leave data blank._ 
 
-Always use (a) code(s) to denote missing values in data, instead of leaving them blank. In the template, for each column in your data that has missing data, specify at least one missing code; you may skip columns without any. Make sure all codes entered in the template are present in appropriate places in data, i.e. don't say "not applicable" but have "NA" values in the spreadsheet. Code-definition pairs are specific to each attribute, so repeat if you reuse codes in different attributes.
+Always use code(s) to denote missing values in data, instead of leaving them blank. In the template, for each column in your data that has missing data, specify at least one missing code; you may skip columns without any. Make sure all codes entered in the template are present in appropriate places in data, i.e. don't say "not applicable" but have "NA" values in the spreadsheet. Code-definition pairs are specific to each attribute, so repeat if you reuse codes in different attributes.
 
 _Why use multiple missing value codes_: The correct interpretation for missing values is scientifically important. For the same variable, data missing because "equipment malfunctioned" is very different from data missing due to the observation being "under detection limit." We recommend keeping good field notes and not hesitating to use multiple codes to denote different underlying causes of missing data. See below for some possible causes of missing data, but enter your own as you see fit. For the following examples, suppose we are recording a set of traits on individual plants at the end of the growing season, including maximum fruit size.
 
