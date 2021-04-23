@@ -19,12 +19,12 @@ LTER-funded data are required to be publicly accessible within two years of coll
 As and even before you collect data, there are several helpful things to keep in mind:
 
 - Remember to discuss what sort of data you will produce, when they will be ready, and when we need to archive them with the IM team. Always keep scans and physical copies of your field records; let us know if you'd like help organizing this task.
-- Record dates and times consistently. 
+- Record dates and times consistently.
 	- We prefer that date and time components are combined into one column; e.g. one "date_time" column instead of separate year, month, day, hour, minute, etc. 
 	- We strongly prefer ISO 8601 format "<YYYY-MM-DD>T<hh:mm><UTC offset in hh:mm>" for date times. E.g. "2020-02-21T12:00-05:00". The letter T denotes separation between date and time. We have found using this ISO format prevents Excel from doing that annoying thing where it auto-changes date formats.
 - Record latitude and longitude to at least six decimal places, and make note of the datum used, e.g., WGS 1984.
 - If for any reason data are missing, i.e., "blank" Excel cells, note the cause(s).
-- [This article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) is an excellent resource on data organization in spreadsheets. Read it once and it'll pay off over the course of your research career, and make this process a pleasant & productive one! 
+- [This article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) is an excellent resource on data organization in spreadsheets. Read it once and it'll pay off over the course of your research career, and make this process a pleasant & productive one!
 
 
 ## The archiving and publishing process
@@ -49,16 +49,15 @@ You may find the attached example submission package useful as you prepare your 
 
 # Metadata Template Instructions
 
-The accompanying metadata template is an Excel workbook, oriented toward the [Ecological Metadata Language](https://knb.ecoinformatics.org/external//emlparser/docs/index.html), the metadata standard for the LTER network and widely used in the earth and environmental sciences. Refer to these instructions as well as the sample submission package, which will walk you through completing each sheet in the template workbook. 
+The accompanying metadata template is an Excel workbook, oriented toward the [Ecological Metadata Language](https://knb.ecoinformatics.org/external//emlparser/docs/index.html), the metadata standard for the LTER network and widely used in the earth and environmental sciences. Refer to these instructions as well as the sample submission package, which will walk you through completing each sheet in the template workbook.
 
-About the template workbook: 
+About the template workbook:
 
-- Some columns contain tooltips. Click on the second through fourth rows to see them. 
+- Some columns contain tooltips. Click on the second through fourth rows to see them.
 - Some columns contain built-in validation rules. In most cases this means you need to choose from a drop-down menu (hint: a downward arrow appears to the right of the cell). In some cases you will be able to enter a value not in the menu. Try to avoid pasting into columns with validation rules, as doing so might override them.
 - You may notice some hidden columns; no need to worry about them.
 
-Do _not_ use superscripts or subscripts anywhere. Use ASCII characters -- numbers and Latin letters with a few special symbols -- most everywhere. Use underscores in file and column names, no spaces, no special characters. You may use a broader set of characters in abstract and method documents, such as the special character &gdot; in Utqia&gdot;vik. 
-
+Do _not_ use superscripts or subscripts anywhere. Use ASCII characters -- numbers and Latin letters with a few special symbols -- most everywhere. Use underscores in file and column names, no spaces, no special characters. You may use a broader set of characters in abstract and method documents, such as the special character &gdot; in Utqia&gdot;vik.
 
 ## Dataset
 
@@ -102,10 +101,10 @@ The only required role is "creator," or people who have intellectually contribut
 |lab assistant||
 |programmer|Writer/maintainer of scripts used to either collect, process, analyze, or maintain dataset.|
 
-
 Note for Core Program datasets: we have decided to list a singular creator on Core Program datasets "Beaufort Lagoon Ecosystems LTER, Core Program". All personnel involved will be listed under other defined roles. These roles and their duration will be recorded in a separate data table to be packaged and archived with the data. 
 
 #### Other columns
+
 - Creator order: Per LTER best practices, the LTER site will be listed as first creator of the dataset. For each creator, list the preferred authorship order, starting with 2. For other personnel, leave blank.
 - Fill in your organization, address, contact info, etc. _only_ if this is your first time submitting _or_ if there has been a change in contact information, e.g. moving to another institution. Otherwise, we most likely have your information already. Do list this information for non-officially BLE-affiliated personnel as we might not have it.
 - We recommend including [ORCIDs](https://orcid.org/). ORCID is a persistent identifier system for researchers. You might want to encourage your team members to get one and fill out a profile; merely having an ORCID is no good without a profile.
@@ -118,11 +117,11 @@ We recommend choosing at least one [LTER Core Research Area](https://lternet.edu
 
 ## Sites
 
-Include lat/lon coordinates in decimal degrees (to at least six decimal places) for all sampling sites in your data, with a brief description of the site. While all supplied coordinates will be used in data tables to spatially situate each observation, we will list a smaller subset in the metadata to give data users an idea of the extent of sampling. Note that for Core Program stations, we often already have the coordinates. 
+Include lat/lon coordinates in decimal degrees (to at least six decimal places) for all sampling sites in your data, with a brief description of the site. While all supplied coordinates will be used in data tables to spatially situate each observation, we will list a smaller subset in the metadata to give data users an idea of the extent of sampling. Note that for Core Program stations, we often already have the coordinates.
 
 ## Entities
 
-A dataset can contain one or many data "entities," e.g., one table containing data from a group of similar surveys. If all your data are tabular, you might want to submit a single Excel workbook, in which case each "tab" or worksheet will be a data entity. If you are not sure how to organize your data into entities, or are submitting other types of data, let us know and we will discuss what constitutes a data entity in your case. 
+A dataset can contain one or many data "entities," e.g., one table containing data from a group of similar surveys. If all your data are tabular, you might want to submit a single Excel workbook, in which case each "tab" or worksheet will be a data entity. If you are not sure how to organize your data into entities, or are submitting other types of data, let us know and we will discuss what constitutes a data entity in your case.
 
 ## Attributes
 
@@ -130,11 +129,11 @@ Here we annotate each attribute in your dataset. Refer to the template tooltips 
 
 ## Attribute Codes
 
-Codes apply to categorical variables, or attributes that allow a specific set of values. For example: you have a "WaterColumnPosition" column in a table, which denotes one of three possible sampling depths: "surface," "mid-column," and "bottom." In the template sheet, define all codes used in each categorical variable. Code-definition pairs are specific to each attribute, so repeat if you reuse codes in different attributes. Make sure to be consistent with codes in your data (e.g., don't use "M," "m," and "male" to refer to the same category). 
+Codes apply to categorical variables, or attributes that allow a specific set of values. For example: you have a "WaterColumnPosition" column in a table, which denotes one of three possible sampling depths: "surface," "mid-column," and "bottom." In the template sheet, define all codes used in each categorical variable. Code-definition pairs are specific to each attribute, so repeat if you reuse codes in different attributes. Make sure to be consistent with codes in your data (e.g., don't use "M," "m," and "male" to refer to the same category).
 
 ## Attribute Missing Values
 
-> _**Leave No Cells Behind:** Never, ever, leave data blank._ 
+> _**Leave No Cells Behind:** Never, ever, leave data blank._
 
 Always use code(s) to denote missing values in data, instead of leaving them blank. In the template, for each column in your data that has missing data, specify at least one missing code; you may skip columns without any. Make sure all codes entered in the template are used correspondingly in data, i.e. don't say the code is "not applicable" but have "NA" values in the spreadsheet. Code-definition pairs are specific to each attribute, so repeat if you reuse codes in different attributes.
 
@@ -147,4 +146,4 @@ _Why use multiple missing value codes_: The correct interpretation for missing v
 |attribute over detection limit of equipment/method|Fruit larger than ruler.|
 |attribute not applicable to this observation|Fruit size not an applicable concept to conifer sample.|
 |attribute not available in this observation|Plant has yielded no fruit, although others in the same species have.|
-|attribute not recorded due to external conditions|Observer forgot ruler at home, cannot measure fruit.|
+|attribute not recorded due to external conditions|Observer forgot ruler at home, cannot measure fruit.
