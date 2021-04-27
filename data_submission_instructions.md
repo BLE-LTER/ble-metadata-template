@@ -66,12 +66,10 @@ Do _not_ use superscripts or subscripts anywhere. Use ASCII characters -- number
 - Ideally the title should be under 20 words. We might edit for clarity and brevity.
 - The dataset title is distinct from publication titles. It needs to include the broad scientific theme, as well as some geographical, temporal, and taxonomic (if applicable) information about dataset. 
 
-#### Guidelines to abstract and method documents
+#### Abstract and method documents
 
-- Send us two Word documents (or Google Docs; no Mac-specific formats please). In the template, write the exact file name, with extension. We generally use these documents as-is, so consider reviewing them for grammar and clarity before sending them.
-- Spell out acronyms, limit the lingo. Use references if applicable (e.g., if you use an industry-standard protocol, but be explicit about any modifications). Any citation format is ok.
-- The dataset abstract is distinct from publication abstracts. It provides more context for the dataset title: high level summaries of project goals, scientific questions, methodologies, format and scale of data, geographical, temporal, and taxonomical information. This abstract is ideally 100 words minimum according to DataONE's FAIR standards, but this is not a hard requirement.
-- Your method document should describe how all of the information the dataset contains were obtained. Be explicit about equipment (models, calibration, etc.), and/or software/scripts used. Any processing or QA/QC performed on the data should be described.
+- Send us two Word documents (Google Docs is fine; no Mac-specific formats please). In the template, write the exact file name, with extension. Be sure to review them for grammar and clarity.
+- We have included two .docx files "abstract.docx" and "methods.docx" in the template zip package, with respective instructions and template questions to follow. Feel free to use your own file(s), but do check out the docs!
 
 #### Other columns
 
