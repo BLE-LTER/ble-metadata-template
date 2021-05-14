@@ -2,9 +2,9 @@ canon version of BLE LTER metadata template
 
 # How to update metadata template
 
-## Template Excel
+## Template Excel and Word files
 
-1. Open file `metadata_template.xlsx`
+1. Open file
 2. Make changes. Make changes to sample package if applicable. Make changes to instructions if applicable.
 3. Save file(s)
 4. See common steps.
@@ -24,7 +24,8 @@ canon version of BLE LTER metadata template
 After any updates, be sure to:
 - Git commit and push changes
 - Zip template package up, be sure to include:
-	- Excel
+	- Excel template
+	- Word templates
 	- PDF
 	- sample package
 - Save to Box > Beaufort LTER > Website > FileLinks > "metadata_template.zip". Using that exact archive name will ensure links and version control work.

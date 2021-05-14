@@ -145,3 +145,9 @@ _Why use multiple missing value codes_: The correct interpretation for missing v
 |attribute not applicable to this observation|Fruit size not an applicable concept to conifer sample.|
 |attribute not available in this observation|Plant has yielded no fruit, although others in the same species have.|
 |attribute not recorded due to external conditions|Observer forgot ruler at home, cannot measure fruit.
+
+## Related Publications
+
+Here's a place to establish relationships between the data and any related publication(s), which is important for the audience of both data and papers. There are three possible relationships: (1) the dataset is citing the publication in some way, (2) if the publication uses the data, and (3) if the publication is ABOUT the data, i.e. a data paper. For example: Wilson AM, Jetz W (2016) Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLoS Biol 14(3): e1002415. https://doi.org/10.1371/journal.pbio.1002415.
+
+ If your publication(s) will come out after the data is archived, let us know and we can establish this linkage in a metadata revision.
