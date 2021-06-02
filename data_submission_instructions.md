@@ -26,7 +26,6 @@ As and even before you collect data, there are several helpful things to keep in
 - If for any reason data are missing, i.e., "blank" Excel cells, note the cause(s).
 - [This article](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) is an excellent resource on data organization in spreadsheets. Read it once and it'll pay off over the course of your research career, and make this process a pleasant & productive one!
 
-
 ## The archiving and publishing process
 
 1. Let us know you'd like to submit data. Obtain these from us: (1) Excel metadata template, (2) PDF instructions -- this document, and (3) a zipped sample metadata+data package with example content. If you are reading this because you downloaded a zip from our website, the zip contains everything listed above.
@@ -137,7 +136,6 @@ Always use code(s) to denote missing values in data, instead of leaving them bla
 
 _Why use multiple missing value codes_: The correct interpretation for missing values is scientifically important. For the same variable, data missing because "equipment malfunctioned" is very different from data missing due to the observation being "under detection limit." We recommend keeping good field notes and not hesitating to use multiple codes to denote different underlying causes of missing data. See below for some possible causes of missing data, but enter your own as you see fit. For the following examples, suppose we are recording a set of traits on individual plants at the end of the growing season, including maximum fruit size.
 
-
 |Cause for missing data|Example|
 |--- |--- |
 |attribute under detection limit of equipment/method|Fruit smaller than ruler’s smallest unit.|
@@ -148,6 +146,6 @@ _Why use multiple missing value codes_: The correct interpretation for missing v
 
 ## Related Publications
 
-Here's a place to establish relationships between the data and any related publication(s), which is important for the audience of both data and papers. There are three possible relationships: (1) the dataset is citing the publication in some way, (2) if the publication uses the data, and (3) if the publication is ABOUT the data, i.e. a data paper. For example: Wilson AM, Jetz W (2016) Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLoS Biol 14(3): e1002415. https://doi.org/10.1371/journal.pbio.1002415.
+Here's a place to establish relationships between the data and any related publication(s), which is important for the audience of both data and papers. There are three possible relationships: (1) the dataset is citing the publication in some way, (2) if the publication uses the data, and (3) if the publication is ABOUT the data, i.e., a data paper. For example: Wilson AM, Jetz W (2016) Remotely Sensed High-Resolution Global Cloud Dynamics for Predicting Ecosystem and Biodiversity Distributions. PLoS Biol 14(3): e1002415. https://doi.org/10.1371/journal.pbio.1002415.
 
  If your publication(s) will come out after the data is archived, let us know and we can establish this linkage in a metadata revision.
