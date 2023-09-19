@@ -13,8 +13,8 @@ canon version of BLE LTER metadata template
 
 1. Open file `data_submission_instructions.md`
 2. Make changes. Hit save on source Markdown.
-3. Open command prompt on a computer with pandoc enabled and saved in the system PATH. 
-4. Navigate to the current directory containing template and source Markdown. 
+3. Open command prompt on a computer with pandoc enabled and saved in the system PATH.
+4. Navigate to the current directory containing template and source Markdown.
 5. Execute command `pandoc data_submission_instructions.md --pdf-engine=xelatex -o data_submission_instructions.pdf`.
 6. Check result PDF to make sure your edits appear.
 7. See common steps.
